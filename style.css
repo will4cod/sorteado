@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(158, 111, 201);
+    margin: 0;
+    padding: 20px;
+}
+
+header h1{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 3em;
+    font-weight: 100;
+}
+
+.sorteio{
+    width: 50%;
+    margin: auto;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.sorteio p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.sorteio textarea{
+    resize: none;
+}
+
+.sorteio button{
+    width: 150px;
+    margin-top: 2em;
+    margin-left: 1em;
+    padding: 1em;
+    font-size: 1em;
+    border-radius: 3rem;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.sorteio button:hover{
+    border: 2px solid rgb(158, 111, 201);
+}
