@@ -23,7 +23,7 @@ header h1{
 }
 
 .sorteio{
-    width: 50%;
+    width: 45%;
     margin: auto;
     margin-top: 2em;
     display: flex;
@@ -37,12 +37,14 @@ header h1{
 
 .sorteio textarea{
     resize: none;
+    width: 100%;
 }
 
 .sorteio button{
     width: 150px;
     margin-top: 2em;
     margin-left: 1em;
+    margin-right: 1em;
     padding: 1em;
     font-size: 1em;
     border-radius: 3rem;
@@ -52,4 +54,14 @@ header h1{
 
 .sorteio button:hover{
     border: 2px solid rgb(158, 111, 201);
+}
+
+.sorteio form{
+    width: 100%;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }

@@ -21,9 +21,16 @@
     <main>
         <section class="sorteio">
             <p>Insira um nome por linha</p>
-            <textarea name="nomes" id="" wrap="off" cols="100%" rows="7"></textarea>
-            <button name="sortear">Sortear</button>
+            <form action="#">
+                <textarea name="nomes" id="lista-nomes" wrap="off" cols="100%" rows="7"></textarea>
+                <div class="botoes">
+                    <button name="sortear" id="sortear" type="button">Sortear</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </form>
         </section>
     </main>
+
+    <script src="./script.js"></script>
 </body>
 </html>
